@@ -1,0 +1,21 @@
+[25-Oct-2023 13:39:21 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pizzar15_schema_10.tb_categoriass' doesn't exist in /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Model/CategoriaDAO.php:86
+Stack trace:
+#0 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Model/CategoriaDAO.php(86): PDOStatement->execute()
+#1 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Service/CategoriaService.php(61): Src\Model\CategoriaDAO->RetornarCategoriaDAO('pizzar15_schema...')
+#2 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Controller/CategoriaController.php(48): Src\Service\CategoriaService->RetornarCategoriaService('pizzar15_schema...')
+#3 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Resource/api/Classe/CategoriaApi.php(46): Src\Controller\CategoriaController->RetornarCategoriaController('pizzar15_schema...')
+#4 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Resource/api/categoria_api.php(42): Src\Resource\api\Classe\Catego in /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Model/CategoriaDAO.php on line 86
+[25-Oct-2023 13:39:29 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pizzar15_schema_10.tb_categoriass' doesn't exist in /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Model/CategoriaDAO.php:86
+Stack trace:
+#0 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Model/CategoriaDAO.php(86): PDOStatement->execute()
+#1 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Service/CategoriaService.php(61): Src\Model\CategoriaDAO->RetornarCategoriaDAO('pizzar15_schema...')
+#2 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Controller/CategoriaController.php(48): Src\Service\CategoriaService->RetornarCategoriaService('pizzar15_schema...')
+#3 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Resource/api/Classe/CategoriaApi.php(46): Src\Controller\CategoriaController->RetornarCategoriaController('pizzar15_schema...')
+#4 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Resource/api/categoria_api.php(42): Src\Resource\api\Classe\Catego in /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Model/CategoriaDAO.php on line 86
+[25-Oct-2023 13:39:31 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pizzar15_schema_10.tb_categoriass' doesn't exist in /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Model/CategoriaDAO.php:86
+Stack trace:
+#0 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Model/CategoriaDAO.php(86): PDOStatement->execute()
+#1 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Service/CategoriaService.php(61): Src\Model\CategoriaDAO->RetornarCategoriaDAO('pizzar15_schema...')
+#2 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Controller/CategoriaController.php(48): Src\Service\CategoriaService->RetornarCategoriaService('pizzar15_schema...')
+#3 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Resource/api/Classe/CategoriaApi.php(46): Src\Controller\CategoriaController->RetornarCategoriaController('pizzar15_schema...')
+#4 /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Resource/api/categoria_api.php(42): Src\Resource\api\Classe\Catego in /home1/pizzar15/siteparaseunegocio.com/optimizaserviceapi/src/Model/CategoriaDAO.php on line 86
